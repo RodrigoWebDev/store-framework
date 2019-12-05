@@ -20,5 +20,23 @@
 }
 
 .infoCardContainer--vintage {
-    background-color: #EDCFD1
-  }
+    background-color: #EDCFD1;
+}
+
+.infoCardContainer--metal {
+    background-color: #e1e1e1;
+}
+
+.infoCardContainer, .infoCardTextContainer, .infoCardHeadline, .infoCardSubhead, .infoCardCallActionContainer, .infoCardCallActionText, .infoCardImageContainer, .infoCardImage {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.infoCardHeadline{
+    color: black;
+    font-weight: bold;
+}
+
+.infoCardCallActionContainer:hover{
+background-color: white;
+}
