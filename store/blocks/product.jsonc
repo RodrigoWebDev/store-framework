@@ -8,8 +8,6 @@
    "flex-layout.row#main": { 
     "props": { 
       "marginTop": 6,
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true
     },
     "children": [
       "flex-layout.col#left",
@@ -18,6 +16,10 @@
   },
 
   "flex-layout.col#left": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    },
     "children": [
       "product-images"
     ]
